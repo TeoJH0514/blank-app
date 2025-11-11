@@ -16,7 +16,7 @@ name = st.text_input("Enter your name")
 env.build('(deftemplate result (slot name))')
 
 # add facts to working memory
-env.assert_string(f'(result "{name}"))')
+env.assert_string(f'(result "{name}")')
 
 # inference
 
